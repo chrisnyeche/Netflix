@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.hero{
+    background-image: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.748), rgba(19, 19, 19, 0.459)), url("../img/hero-bg.jpg");
+}
+
+.img{
+    width: 100%;
+}
+
+.bg-dangers{
+    background-color: red !important;
+    color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+     .img{
+        width:300px;
+    }
+}
+
+.logo{
+    width: 30%;
+}
+

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Nigeria - Watch TV shows</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./img/favicon .ico" rel="icon" type="image/x-icon" />
+
+</head>
+
+<body>
+
+  <main>
+
+    <!-- Header Section -->
+    <header class="hero">
+
+      <!-- Navbar Section -->
+      <nav>
+        <div class="row d-flex align-items-center mx-2 mt-0">
+          <div class="col-6">
+            <img src="./img/logo.svg" alt="Netflix Logo" width="200" height="50" class="img-fluid">
+          </div>
+
+          <div class="col-6 text-end">
+            <a href="#" class="btn bg-dangers rounded-3 text-light px-3 me-4">Sign In</a>
+          </div>
+        </div>
+      </nav> <!-- End of Navbar Section -->
+
+
+      <!-- Hero Section -->
+      <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold text-white">Unlimited movies, TV</h1>
+        <h1 class="display-5 fw-bold text-white">shows, and more.</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="text-light lead mb-3 fs-5">Watch anywhere. Cancel anytime.</p>
+          <p class="text-light lead mb-4">Ready to watch? Enter your email to create or restart your
+            membership.</p>
+
+          <!-- Search Bar & input -->
+          <div class="input-group">
+            <input type="text" class="form-control input-text w-75 py-2" placeholder="Email address"
+              aria-label="Email address" aria-describedby="button-addon1">
+            <button class="btn bg-dangers d-none d-md-flex py-3" type="button" id="button-addon">Get Started > </button>
+            <div class="mx-sm-auto d-sm-none my-2 col-sm-12 mx-auto">
+              <button class="btn bg-dangers py-2 px-3 rounded-1" type="button" id="button-addon">Get Started > </button>
+            </div>
+
+          </div>
+        </div>
+      </div><!-- End of Hero Section -->
+
+    </header>
+    <!--End of Header -->
+
+    <!-- Advert -->
+    <section>
+      <div class="container-fluid">
+
+        <!-- Enjoy Your TV -->
+        <div class="container pt-2">
+          <div class="row p-4 align-items-center justify-content-center">
+            <div class="col-sm-12 text-center col-md-6 col-lg-6">
+              <h2 class="fw-bolder display-3 mb-3 text-white">Enjoy on your TV.</h2>
+              <p class="lead text-white">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+                players,
+                and more.</p>
+            </div>
+
+            <!-- Video Advert -->
+            <div class="col-sm-12 col-md-6 col-lg-6 tv">
+              <!--Adding the video file along with the image-->
+              <video autoplay loop width="100%" height="30%" src="./img/video-tv-0819.m4v" type="video/mp4"></video>
+            </div>
+          </div>
+        </div><!-- End of Enjoy Your TV -->
+
+        <!-- Download Your Shows -->
+        <div class="container pt-2">
+          <div class="row p-4 flex-lg-row-reverse align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+              <h2 class="fw-bolder display-4 mb-3 text-white">Download your shows to watch offline</h2>
+              <p class="lead text-white">Save your favorites easily and always have something to watch.</p>
+            </div>
+
+            <!-- Mobile Advert -->
+            <div class="col-sm-12 col-md-6 col-lg-6 tv">
+              <!--Adding the video file along with the image-->
+              <img src="./img/mobile-phone.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                height="500" loading="lazy">
+            </div>
+          </div>
+
+        </div> <!-- End of Download Your Shows -->
+
+        <!-- Watch Everywhere -->
+        <div class="container pt-2">
+          <div class="row p-4">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-sm-center">
+              <h2 class="fw-bolder display-5 mb-3 text-white">Watch Everywhere.</h2>
+              <p class="lead text-white  fw-bold lead">Stream unlimited movies and TV shows on your phone, tablet,
+                laptop, and TV.</p>
+            </div>
+          </div>
+
+        </div> <!-- End of  Watch Everywhere -->
+
+        <!-- Download Your Shows(Kids) -->
+        <div class="container pt-2">
+          <div class="row px-4 flex-lg-row-reverse align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+              <h2 class="fw-bolder display-4 mb-3 text-white">Download your shows to watch offline</h2>
+              <p class="lead text-white">Save your favorites easily and always have something to watch.</p>
+            </div>
+
+            <!-- Mobile Advert -->
+            <div class="col-sm-12 col-md-6 col-lg-6 tv">
+              <!--Adding the video file along with the image-->
+              <img src="./img/kids.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                height="500" loading="lazy">
+            </div>
+          </div>
+
+        </div> <!-- End of Download Your Shows(Kids) -->
+
+      </div>
+
+    </section> <!-- End of Advert -->
+
+    <!-- Accordion -->
+    <section>
+      <div class="container-fluid">
+        <div class="px-4 py-5 text-center bg-black">
+
+          <!-- Frequently Asked Questions -->
+          <h2 class="display-4 fw-bolder text-white">Frequently Asked Questions</h2>
+
+          <!-- Accordion -->
+          <div class="accordion accordion-flush col-sm-12 col-lg-8 fs-3 text-start mx-auto" id="accordionFlushExample">
+
+            <!-- Accordion 1 -->
+            <div class="accordion-item my-2">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed fs-3 text-light bg-dark" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                  aria-controls="flush-collapseOne">
+                  What is Netflix?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-light bg-dark">
+                  <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                    documentaries, and more on thousands of internet-connected devices.</p>
+                  <p>You can watch as much as you want, whenever you want without a single commercial – all for one low
+                    monthly price. There's always something new to discover and new TV shows and movies are added every
+                    week!</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion 2 -->
+            <div class="accordion-item my-2">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed fs-3 text-light bg-dark" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                  aria-controls="flush-collapseTwo">
+                  How much does Netflix cost?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-light bg-dark">
+                  <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed
+                    monthly fee. Plans range from ₦1,200 to ₦4,400 a month. No extra costs, no contracts.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion 3 -->
+            <div class="accordion-item my-2">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed fs-3 text-light bg-dark" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                  aria-controls="flush-collapseThree">
+                  Where can I watch?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-light bg-dark">
+                  <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                    netflix.com from your personal computer or on any internet-connected device that offers the Netflix
+                    app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+                  <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads
+                    to
+                    watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion 4 -->
+            <div class="accordion-item my-2">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed fs-3 text-light bg-dark" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false"
+                  aria-controls="flush-collapseFour">
+                  How do I cancel?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-light bg-dark">Netflix is flexible. There are no pesky contracts and no
+                  commitments. You can
+                  easily cancel your account online in two clicks. There are no cancellation fees – start or stop your
+                  account anytime.</div>
+              </div>
+            </div>
+
+            <!-- Accordion 5 -->
+            <div class="accordion-item my-2">
+              <h2 class="accordion-header" id="flush-headingFive">
+                <button class="accordion-button collapsed fs-3 text-light bg-dark" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                  aria-controls="flush-collapseFive">
+                  What can I watch on Netflix?
+                </button>
+              </h2>
+              <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-light bg-dark">Netflix has an extensive library of feature films,
+                  documentaries, TV shows,
+                  anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</div>
+              </div>
+            </div>
+
+            <!-- Accordion 6 -->
+            <div class="accordion-item my-2">
+              <h2 class="accordion-header" id="flush-headingSix">
+                <button class="accordion-button collapsed fs-3 text-light bg-dark" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false"
+                  aria-controls="flush-collapseSix">
+                  Is Netflix good for kids?
+                </button>
+              </h2>
+              <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body text-light bg-dark">
+                  <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                    family-friendly TV shows and movies in their own space.</p>
+                  <p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy
+                    family-friendly TV shows and movies in their own space.</p>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End of Accordion-->
+        </div>
+      </div>
+    </section>
+
+    <!-- Email Address-->
+    <section>
+      <div class="container-fluid">
+        <div class="col-lg-6 mx-auto my-5">
+          <!-- Ready to watch-->
+          <h5 class="text-light lead mb-4 fw-bolder">Ready to watch? Enter your email to create or restart your
+            membership.</h5><!-- End of Ready to watch-->
+
+          <!-- Search Bar -->
+          <div class="input-group">
+            <input type="text" class="form-control input-text w-75 py-2" placeholder="Email address"
+              aria-label="Email address" aria-describedby="button-addon1">
+            <button class="btn bg-dangers d-none d-md-flex py-3" type="button" id="button-addon">Get Started >
+            </button>
+            <div class="mx-sm-auto d-sm-none my-2 col-sm-12 mx-auto">
+              <button class="btn bg-dangers py-2 px-3 rounded-1" type="button" id="button-addon">Get Started >
+              </button>
+            </div>
+          </div>
+          <!--End of Search Bar -->
+        </div><!-- End of Email Address-->
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row mx-auto d-flex">
+        <h4><a href="#" class="nav-link p-0 text-light text-center fw-bold fs-2">Questions?Contact Us.</a></h4>
+
+        <!-- First List -->
+        <div class="col-6 col-lg-3 col-md-6 col-sm-6">
+          <ul>
+            <li class="nav-item my-3 text"><a href="#" class="nav-link p-0 text-muted">FAQ</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Investor Relations</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Privacy</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Speed Test</a></li>
+          </ul>
+        </div><!--End of First List -->
+
+        <!-- Second List -->
+        <div class="col-6 col-lg-3 col-md-6 col-sm-6">
+          <ul>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Help Center</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Jobs</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Cookies Preferences</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Legal Notices</a></li>
+          </ul>
+        </div><!-- End of Second List -->
+
+        <!-- Third List -->
+        <div class="col-6 col-lg-3 col-md-6 col-sm-6">
+          <ul class="">
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Account</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Ways to Watch</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Corporate Information</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Legal Notices</a></li>
+          </ul>
+        </div><!-- End of Third List -->
+
+        <!-- End of Fourth List -->
+        <div class="col-6 col-lg-3 col-md-6 col-sm-6">
+          <ul class="">
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Media Center</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Terms of Use</a></li>
+            <li class="nav-item my-3"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+          </ul>
+        </div><!-- End of Fourth List -->
+
+        <div>
+          <p class="text-light text-center mt-3">Netflix Nigeria</p>
+        </div>
+      </div>
+    </div>
+
+  </footer><!-- End of Footer -->
+
+  
+  <script src="./java/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
